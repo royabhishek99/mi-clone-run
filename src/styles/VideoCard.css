@@ -1,0 +1,30 @@
+.vc{
+    width: 30vmax;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vmax;
+}
+
+.vc a{
+    padding: 2.5vmax;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.233);
+    color: white;
+}
+
+.vc:hover a{
+    background-color: rgba(224, 224, 224, 0.678);
+}
+
+.vc a svg{
+    fill: rgb(255, 255, 255);
+}
+
+.vc p{
+    color: white;
+}

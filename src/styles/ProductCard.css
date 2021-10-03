@@ -1,0 +1,29 @@
+.pc{
+    cursor: pointer;
+    background-color: white;
+    padding-bottom: 2vmax;
+    
+    margin: 0.5vmax;
+}
+
+.pc img:hover{
+    transform: translateY(-0.4vmax);
+    transition: all 0.5s;
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.36);
+}
+
+.pc h5{
+    color: rgb(94, 94, 94);
+    margin: 2vmax 0 0.5vmax 2vmax;
+}
+
+.pc span{
+    margin: 0 2vmax;
+    color: rgb(94, 94, 94);
+    font-size: 1vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pc b{
+    color: orangered;
+}
